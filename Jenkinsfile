@@ -47,7 +47,7 @@ pipeline {
     post {
         success {
             echo "Docker image pushed successfully!"
-            emailext body: 'Email sent from jenkins', subject: 'docker_success', to: 'saranyagopal542@gmail.com'
+            emailext body: 'Email sent from jenkins', subject: 'docker_success', to: 'saranyagopalakrishnan05@gmail.com'
         }
         failure {
             echo "Build failed!"
